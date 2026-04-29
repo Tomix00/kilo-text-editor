@@ -24,7 +24,7 @@ run: $(OUT)
 # Clean build folder
 .PHONY: clean
 clean:
-	rm -rf $(BUILD_DIR)/*
+	rm -rf $(BUILD_DIR)/
 
 # Reload: clean and run
 .PHONY: reload
